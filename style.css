@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color:black;
+
+    /*Creates a bit of gap on the sides*/
+    max-width: 90%;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+/*Part that shows me*/
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    background-color: lightslategray;
+
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.hero img, iframe {
+    flex: 1;
+    max-width: 100%;
+
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.hero img:hover, iframe:hover {
+    transform: scale(1.1,1.1);
+    transform: rotateY(45deg)
+}
+
+/*body *:hover {
+    transform: rotateY(45deg);
+    transition: 0.5s;
+}*/
+
+.hero-text {
+    flex: 1;
+}
+
+/*the server's current status*/
+.serverstatus {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10;
+    height: 100%;
+}
+
+p, li {
+    font-family: 'Raleway', monospace, sans-serif;
+}
+
+/*server info*/
+#info * {
+    flex: 1;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+/*list of players online*/
+#onlinelist {
+    background-color: beige;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*header fonts*/
+h1,h2,h3 {
+    font-family: 'Arvo', Georgia, serif;
+}
+
+/*background image*/
+body {
+    background-image: url(https://images7.alphacoders.com/556/556718.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*body rounding*/
+body * {
+    border-radius: 10;
+}
