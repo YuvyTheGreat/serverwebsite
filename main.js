@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 async function fetchData() {
     try {
+        
         var data = await fetch('/.netlify/functions/fetch'); //by default a GET request, do not put the .js doesn't work
         const result = await data.json(); //always use await for this and fetch
 
@@ -15,8 +16,11 @@ async function fetchData() {
         document.getElementById("playernumber").textContent = result.playerNumber;
 
         if (result.isOnline == True) {
-            document.getElementById("onlinestatus").textContent = result.isOnline;
+            document.getElementById("onlinestatus").textContent = "Server is Online.";
+        } else {
+            document.getElementById("onlinestatus").textContent = "Server is Down.";
         }
+
     } catch (error) {
         console.log(error.message);
     }
