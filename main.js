@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 async function fetchData() {
     try {
-        var data = fetch('functions/fetch.js'); //by default a GET request
+        var data = fetch('functions/fetch'); //by default a GET request, do not put the .js doesn't work
         const result = await data.json();
         console.log(result)
     } catch (error) {
