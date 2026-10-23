@@ -12,7 +12,11 @@ async function fetchData() {
         const result = await data.json(); //always use await for this and fetch
 
         console.log(result);
-        document.getElementById("playernumber").textContent = result;
+        document.getElementById("playernumber").textContent = result.playerNumber;
+
+        if (result.isOnline == True) {
+            document.getElementById("onlinestatus").textContent = result.isOnline;
+        }
     } catch (error) {
         console.log(error.message);
     }
