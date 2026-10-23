@@ -162,6 +162,7 @@ main {
 
     gap: 0;
     background: moccasin;
+    border-color: gray;
 }
 
 #fullstatus div {
@@ -214,6 +215,7 @@ section {
 #articlediv {
     display: flex;
     flex-direction: column;
+    border-color: grey;
 }
 
 #articlediv h2 {
