@@ -195,7 +195,7 @@ a {
     transition: 0.5s;
     display: inline-block;
     text-decoration: none;
-    color: blue;
+    color: slategray;
 }
 
 a:hover {
