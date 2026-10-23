@@ -171,7 +171,7 @@ main {
     background-color: black;
     
     /*mobile friendly clamp*/
-    width: clamp(70%, 75%, 90%);
+    width: clamp(70%, 85%, 90%);
     text-align: center;
     color: ivory;   
 }
