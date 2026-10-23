@@ -209,13 +209,13 @@ section {
 
 /*news*/
 #news {
-    background-color: moccasin;
+    background-color: rgb(160, 151, 134);
+    border-color: grey;
 }
 
 #articlediv {
     display: flex;
     flex-direction: column;
-    border-color: grey;
 }
 
 #articlediv h2 {
