@@ -119,7 +119,7 @@ export default async () => {
     const data = await collect.json(); //ALSO ALWAYS USE AWAIT FOR THIS
 
     console.log("API Link: https://api.mcsrvstat.us/bedrock/3/mcserver.hellohathi.com");
-    console.log("Number of Players Online: " + data.players?.online ?? 0);
+    console.log("Number of Players Online: " + (data.players?.online ?? 0)); //returns 0 if undefined data.players.online
     console.log("Server is " + (data.online ? "Online." : "Down."));
 
     var isOnline = data.online;
