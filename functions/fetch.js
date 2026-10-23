@@ -115,8 +115,10 @@ const sampleData = {
 };
 
 export default async () => {
-    const collect = fetch("https://api.mcsrvstat.us/bedrock/3/mcserver.hellohathi.com")
-    data = (await collect).json()
+    const collect = fetch("https://api.mcsrvstat.us/bedrock/3/mcserver.hellohathi.com");
+    data = (await collect).json();
+
+    console.log(data);
 
     var isOnline = data.online;
     var playerNumber = data.players?.online ?? 0;
