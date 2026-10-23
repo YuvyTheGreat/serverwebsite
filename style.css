@@ -19,7 +19,7 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     flex-wrap: wrap;
 
     margin-bottom: 40px;
@@ -31,18 +31,21 @@ body {
     padding: 20px;
 }
 
+/*hero images*/
 .hero img, iframe {
     flex: 1;
     max-width: 100%;
 
     border-radius: 10px;
     transition: 0.5s;
+
+    height: 100%;
+    width: 50%;
 }
 
 
 .hero img:hover, iframe:hover {
     transform: scale(1.1,1.1);
-    transform: rotateY(45deg)
 }
 
 /*body *:hover {
