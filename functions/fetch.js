@@ -115,7 +115,7 @@ const sampleData = {
 };
 
 export default async () => {
-    const collect = fetch("https://api.mcsrvstat.us/bedrock/3/mcserver.hellohathi.com");
+    const collect = await fetch("https://api.mcsrvstat.us/bedrock/3/mcserver.hellohathi.com"); //ALWAYS USE AWAIT FOR FETCH
     data = (await collect).json();
 
     console.log(data);
