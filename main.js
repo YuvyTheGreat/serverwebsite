@@ -11,7 +11,7 @@ async function fetchData() {
 
         var data = await fetch('/.netlify/functions/fetch'); //by default a GET request, do not put the .js doesn't work
         const result = await data.json(); //always use await for this and fetch
-(
+
         console.log(result);
         document.getElementById("playernumber").textContent = (result.playerNumber + (result.playerNumber > 1 ? " Players Online" : "Player Online")); //ternary operator :)
 
