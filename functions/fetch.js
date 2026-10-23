@@ -119,7 +119,7 @@ export default async () => {
     data = (await collect).json()
 
     var isOnline = data.online;
-    var playerNumber = data.players.online;
+    var playerNumber = data.players?.online ?? 0;
 
     return Response.json({isOnline, playerNumber});
 }
