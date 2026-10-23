@@ -13,7 +13,7 @@ async function fetchData() {
         const result = await data.json(); //always use await for this and fetch
 
         console.log(result);
-        document.getElementById("playernumber").textContent = (result.playerNumber + (result.playerNumber > 1 ? " Players Online" : " Player Online")); //ternary operator :)
+        document.getElementById("playernumber").textContent = (result.playerNumber + (result.playerNumber != 1 ? " Players Online" : " Player Online")); //ternary operator :)
 
         if (result.isOnline == true) {
             document.getElementById("onlinestatus").innerHTML = "Server is Online<img src='Green Pulse Dot.gif' style='width: 40px; height: auto; vertical-align: middle' alt='Online'>";
