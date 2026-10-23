@@ -15,10 +15,10 @@ async function fetchData() {
         console.log(result);
         document.getElementById("playernumber").textContent = (result.playerNumber + " Players Online.");
 
-        if (result.isOnline == "true") {
-            document.getElementById("onlinestatus").textContent = "Server is Online.";
+        if (result.isOnline == true) {
+            document.getElementById("onlinestatus").textContent = "Server is Online 🟢";
         } else {
-            document.getElementById("onlinestatus").textContent = "Server is Down.";
+            document.getElementById("onlinestatus").textContent = "Server is Down 🔴";
         }
 
     } catch (error) {
