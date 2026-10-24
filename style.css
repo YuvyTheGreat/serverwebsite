@@ -148,7 +148,7 @@ main {
     gap: 40px;
 }
 
-@media (max-width: 600px) { /*if screen width smaller than 600px, flex-direction is column*/
+@media (max-width: 820px) { /*if screen width smaller than 600px, flex-direction is column; only queries screen width*/
     main {
         flex-direction: column;
     }
