@@ -125,15 +125,17 @@ h1,h2,h3 {
 
 /*background image*/
 body {
-    background-image: url(https://wallpapercave.com/wp/wp15148800.webp);
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://wallpapercave.com/wp/wp15148800.webp"); /*darkends the image*/
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
-    /*darkens background*/
-    background-color: rgba(0,0,0,0.5);
-    background-blend-mode: darken;
+    background-color: midnightblue;
+    background-blend-mode: normal;
 }
 
 /*body rounding*/
