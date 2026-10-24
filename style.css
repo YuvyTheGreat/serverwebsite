@@ -285,3 +285,25 @@ section {
     margin-bottom: 0px;
     border-bottom: 1px solid slategrey;
 }
+
+
+#fullscreen { /*from my other website lol*/
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  padding: 6px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: 2px solid lightskyblue;
+  z-index: 999;
+}
+
+#fullscreen:hover {
+  border-color: grey;
+}
