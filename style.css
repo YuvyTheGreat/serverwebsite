@@ -152,6 +152,9 @@ main {
     main {
         flex-direction: column;
     }
+    bottom {
+        flex-direction: column;
+    }
 }
 
 /*right bar*/
@@ -258,7 +261,7 @@ section {
 
 #gamediv iframe {
     height: 70%;
-    min-width: 70%;
+    min-width: 95%;
 }
 
 /*news*/
