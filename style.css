@@ -235,10 +235,16 @@ section {
     flex-direction: row;
     align-items: stretch; /*stretches all items to tallest in flex*/
     justify-content: space-between;
+    gap: 40px;
 
     flex-wrap: wrap;
     display: flex;
     height: 100%;
+    margin-bottom: 40px;
+}
+
+#bottom section {
+    margin-bottom: 0;
 }
 
 #gamediv {
