@@ -148,6 +148,12 @@ main {
     gap: 40px;
 }
 
+@media (max-width: 600px) { /*if screen width smaller than 600px, flex-direction is column*/
+    main {
+        flex-direction: column;
+    }
+}
+
 /*right bar*/
 #fullstatus {
     flex-direction: column;
