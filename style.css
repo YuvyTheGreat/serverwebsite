@@ -236,3 +236,9 @@ section {
 #articlediv h2 {
     text-align: center
 }
+
+#articlediv p {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid ivory;
+}
