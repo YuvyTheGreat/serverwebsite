@@ -173,9 +173,11 @@ main {
     background-color: black;
     
     /*mobile friendly clamp*/
-    width: clamp(70%, 85%, 90%);
+    width: clamp(80%, 85%, 90%);
     text-align: center;
     color: ivory;   
+
+    margin: auto;
 }
 
 #onlinestatus {
