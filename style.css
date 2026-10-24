@@ -244,6 +244,8 @@ section {
 #gamediv {
     flex: 1;
     padding: 20px;
+    background-color: moccasin;
+    border-color: grey;
 }
 
 #gamediv iframe {
