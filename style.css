@@ -32,7 +32,7 @@ body {
 }
 
 /*hero images*/
-.hero img, iframe {
+.hero img {
     flex: 1;
     max-width: 100%;
 
@@ -242,6 +242,7 @@ section {
 
 #gamediv {
     flex: 1;
+    padding: 20px;
 }
 
 /*news*/
