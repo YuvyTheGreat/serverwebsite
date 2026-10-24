@@ -239,6 +239,7 @@ section {
 
     flex-wrap: wrap;
     display: flex;
+    height: 100%;
 }
 
 #gamediv {
@@ -246,7 +247,7 @@ section {
     padding: 20px;
     background-color: moccasin;
     border-color: grey;
-    height: 100%
+    min-height: 100%;
 }
 
 #gamediv iframe {
