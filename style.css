@@ -165,7 +165,7 @@ main {
     justify-content: space-around;
 
     gap: 0;
-    background: moccasin;
+    background: #295D8A; /*dark steelblue*/
     border-color: gray;
 }
 
