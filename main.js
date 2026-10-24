@@ -28,3 +28,7 @@ async function fetchData() {
     //variables inside the try only exist inside the try
 }
 
+function goFullScreen() {
+    thing = document.getElementById("game");
+    thing.requestFullScreen();
+}
