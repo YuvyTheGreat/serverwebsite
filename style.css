@@ -257,6 +257,7 @@ section {
     background-color: moccasin;
     border-color: grey;
     min-height: 100%;
+    position: relative;
 }
 
 #gamediv iframe {
