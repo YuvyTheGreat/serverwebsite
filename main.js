@@ -29,6 +29,6 @@ async function fetchData() {
 }
 
 function goFullScreen() {
-    thing = document.getElementById("game");
+    var thing = document.getElementById("game");
     thing.requestFullScreen();
 }
