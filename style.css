@@ -44,7 +44,7 @@ body {
 }
 
 
-.hero img:hover, iframe:hover {
+.hero img:hover {
     transform: scale(1.1,1.1);
 }
 
