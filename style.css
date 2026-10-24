@@ -230,10 +230,25 @@ section {
     border: 2px solid white;
 }
 
+/*game and news*/
+#bottom {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+#gamediv {
+    flex: 1;
+}
+
 /*news*/
 #news {
     background-color: moccasin;
     border-color: grey;
+    flex: 3;
 }
 
 #articlediv {
