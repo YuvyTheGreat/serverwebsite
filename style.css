@@ -93,7 +93,7 @@ p, li {
 }
 
 footer, header {
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     background-color: white !important; /*overrides default hero*/
@@ -101,7 +101,7 @@ footer, header {
 
 /*head*/
 header {
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
     padding: 20px;
