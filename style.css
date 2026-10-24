@@ -257,8 +257,8 @@ section {
 }
 
 #gamediv iframe {
-    height: 50%;
-    width: auto;
+    height: 70%;
+    min-width: 70%;
 }
 
 /*news*/
