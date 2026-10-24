@@ -48,6 +48,10 @@ body {
     transform: scale(1.1,1.1);
 }
 
+#infodiv a {
+    color: white;
+}
+
 /*body *:hover {
     transform: rotateY(45deg);
     transition: 0.5s;
