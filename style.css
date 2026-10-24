@@ -251,7 +251,8 @@ section {
 }
 
 #gamediv iframe {
-    width: 325px;
+    height: 100%;
+    width: auto;
 }
 
 /*news*/
