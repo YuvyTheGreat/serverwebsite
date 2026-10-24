@@ -251,7 +251,7 @@ section {
 }
 
 #gamediv iframe {
-    height: 100%;
+    height: auto;
     width: auto;
 }
 
