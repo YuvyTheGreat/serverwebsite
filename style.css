@@ -257,7 +257,7 @@ section {
     background-color: moccasin;
     border-color: grey;
     min-height: 100%;
-    position: relative;
+    position: relative; /*needed for fullscreen button*/
 }
 
 #gamediv iframe {
@@ -307,4 +307,10 @@ section {
 
 #fullscreen:hover {
   border-color: grey;
+}
+
+/*error*/
+#errordiv {
+    background-color: darkred;
+    display: block;
 }
