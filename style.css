@@ -310,7 +310,8 @@ section {
 
 /*error*/
 #errordiv {
-    background-color: darkred;
+    background: darkred;
+    background: linear-gradient(90deg,rgba(219, 0, 0, 1) 0%, rgba(235, 131, 131, 1) 100%); /*cool mini gradient i made*/
     display: block;
 
     border-radius: 10px;
