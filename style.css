@@ -312,4 +312,6 @@ section {
 #errordiv {
     background-color: darkred;
     display: block;
+
+    border-radius: 10px;
 }
