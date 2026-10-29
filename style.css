@@ -262,8 +262,8 @@ section {
 
 #fullscreen { /*from my other website lol*/
   position: absolute;
-  top: 15px;
-  right: 30px;
+  top: 25%;
+  right: 25%;
   display: inline-block;
   width: auto;
   text-align: center;
