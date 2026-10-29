@@ -265,7 +265,7 @@ section {
 }
 
 #gamediv iframe {
-    height: 325px;
+    height: 400px;
     min-width: 50%;
 }
 
@@ -294,7 +294,7 @@ section {
 #news {
     background-color: moccasin;
     border-color: grey;
-    flex: 3;
+    flex: 5;
 }
 
 #articlediv {
