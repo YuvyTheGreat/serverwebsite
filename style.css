@@ -323,5 +323,5 @@ section {
 
 .successdiv { /*When the error is resolved*/
     background: green !important;
-    background: linear-gradient(90deg,rgba(0, 190, 0, 1) 0%, rgba(50, 190, 50, 1) 100%) !important;
+    background: linear-gradient(90deg,rgba(0, 150, 0, 1) 0%, rgba(50, 150, 50, 1) 100%) !important;
 }
