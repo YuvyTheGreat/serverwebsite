@@ -259,6 +259,9 @@ section {
     border-color: grey;
     min-height: 100%;
     position: relative; /*needed for fullscreen button*/
+
+    display: flex;
+    flex-direction: column;
 }
 
 #gamediv iframe {
