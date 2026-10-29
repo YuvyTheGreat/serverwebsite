@@ -149,15 +149,6 @@ main {
     gap: 40px;
 }
 
-@media (max-width: 820px) { /*if screen width smaller than 600px, flex-direction is column; only queries screen width*/
-    main {
-        flex-direction: column;
-    }
-    #bottom {
-        flex-direction: column;
-    }
-}
-
 /*right bar*/
 #fullstatus {
     flex-direction: column;
@@ -328,4 +319,13 @@ section {
 .successdiv { /*When the error is resolved*/
     background: green !important;
     background: linear-gradient(90deg,rgba(0, 150, 0, 1) 0%, rgba(50, 150, 50, 1) 100%) !important;
+}
+
+@media (max-width: 820px) { /*if screen width smaller than 600px, flex-direction is column; only queries screen width*/
+    main {
+        flex-direction: column;
+    }
+    #bottom {
+        flex-direction: column;
+    }
 }
