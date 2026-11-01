@@ -122,7 +122,7 @@ export default async () => {
     console.log("Number of Players Online: " + (data.players ? data.players : 0)); //returns 0 if undefined data.players.online
     console.log("Server is " + (data ? "Online." : "Down."));
 
-		var isOnline = data ? true : false;
+	var isOnline = data ? true : false;
     var playerNumber = data.players ? data.players : 0;
 
     return Response.json({isOnline, playerNumber});
