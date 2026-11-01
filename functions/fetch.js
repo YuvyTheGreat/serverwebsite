@@ -123,7 +123,7 @@ export default async () => {
     console.log("Server is " + (data ? "Online." : "Down."));
 
 	var isOnline = data ? true : false;
-    var playerNumber = data.players ? data.players : 0;
+    var playerNumber = data ? data.players : 0;
 
     return Response.json({isOnline, playerNumber});
 }
