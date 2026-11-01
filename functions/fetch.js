@@ -115,7 +115,7 @@ const sampleData = {
 };
 
 export default async () => {
-    const collect = await fetch("https://mcserver.hellohathi.com/v1/join", {
+    const collect = await fetch("http://mcserver.hellohathi.com:19132/v1/join", {
 		signal: AbortSignal.timeout(5000) //https://stackoverflow.com/questions/46946380/fetch-api-request-timeout	
 	}); //ALWAYS USE AWAIT FOR FETCH
     const data = await collect.json(); //ALSO ALWAYS USE AWAIT FOR THIS
